@@ -1,6 +1,6 @@
 # ActivityPub Types
 
-Fork of <https://github.com/SiranWeb/activitypub-types>
+Fork from <https://github.com/SiranWeb/activitypub-types>
 
 ## Installation
 
@@ -17,12 +17,7 @@ You can use interfaces and extend them by yourself, or you can use specified fie
 
 ```typescript
 // All models interfaces starts with AP
-import {
-    APObject,
-    APNote,
-    ContextField,
-    ContentMapField,
-} from './src/index.ts.ts'
+import { APObject, APNote, ContextField, ContentMapField } from './index.ts'
 ```
 
 ## License
